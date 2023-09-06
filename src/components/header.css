@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat",Verdana,Helvetica,sans-serif;
+    font-size: 12px;
+    line-height: 1.42857;
+    color: #000;
+    background-color: #fff;
+    position: relative;
+}
+
+.header {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    background-color: white;
+}
+
+.header-container {
+    height: 108px;
+    max-width: 1280px;
+    min-width: 767px;
+    margin: 0 auto;
+}
+
+.logo {
+    top: 38px;
+    position: relative;
+    clear: both;
+}
+
+.center {
+    width: 25%;
+    margin: auto;
+}
+
+.bottom {
+    margin-top: 30px;
+    position: relative;
+    clear: both;
+    height: 33px;
+}
+
+.bottom div {
+    display: inline-block;
+    margin: 0 6px;
+}
+
+.bottom .left {
+    float: left;
+    position: relative;
+    bottom: 8px;
+}
+
+.bottom .left a {
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+    padding-right: 13px;
+    text-decoration: none;
+}
+
+.bottom .right{
+    position: absolute;
+    right: 0px;
+    bottom: 5px;
+}
+
+
+
+
+ 
+ 
