@@ -4,7 +4,7 @@ import Stack from '@mui/material/Stack';
 import Autocomplete from '@mui/material/Autocomplete';
 import './header.css';
 
-export default function SearchBox() {
+const SearchBox = () => {
   return (
     <Stack>
       <Autocomplete
@@ -16,8 +16,11 @@ export default function SearchBox() {
           <TextField 
           sx={{width:326}}
             {...params}
-            placeholder="Search"
+            label="Search"
             InputProps={{
+                style: {
+                    width:'300px'
+                },
               ...params.InputProps,
               type: 'search',
             }}
@@ -27,6 +30,7 @@ export default function SearchBox() {
     </Stack>
   );
 }
+
 
 
 const categories = [
@@ -41,3 +45,5 @@ const categories = [
   { title: 'Decor & More'},
   { title: 'Dining Chairs'},
 ];
+
+export default SearchBox;

@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.cardContainer {
+    max-width: 1280px;
+    min-width: 767px;
+    margin: auto;
+    position: relative;
+    top: 160px;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+    justify-content: center;
+    margin-left: 80px;
+}
+
+.card-info {
+    width: 20%;
+    margin: 30px;
+}
+
+
+
+
+
+
+
